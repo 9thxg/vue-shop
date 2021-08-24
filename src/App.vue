@@ -6,7 +6,8 @@
       dark
     >
       <div class="d-flex align-center">
-        <v-img
+        <router-link to='/'>
+          <v-img
           alt="Vuetify Logo"
           class="shrink mr-2"
           contain
@@ -14,6 +15,8 @@
           transition="scale-transition"
           width="40"
         />
+        </router-link>
+        
 
         <v-img
           alt="Vuetify Name"
