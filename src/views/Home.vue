@@ -7,6 +7,7 @@
   import ItemList from '../components/Item-list'
 
   export default {
+    name: 'Home',
     components: {
       ItemList,
     },
